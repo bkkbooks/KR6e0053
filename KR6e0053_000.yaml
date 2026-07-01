@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6e0053/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大方廣入如來智德不思議經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T10/T10n0304.xml
+    old_id: T10n0304
+hash: sha256:3bc722d321d281bff2ebe145b3ed43c3b32fa94e8c8fb8379f7730355e80bd07

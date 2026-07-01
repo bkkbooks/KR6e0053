@@ -1,0 +1,56 @@
+canonical_identifier: bkk:krp/KR6e0053/v1
+canonical_location: https://kanripo.org/bkk/KR6e0053/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大方廣入如來智德不思議經
+  identifiers:
+    alt_id:
+    - T10n0304
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T10/T10n0304.xml
+    old_id: T10n0304
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6e0053_000.yaml, hash: 'sha256:3bc722d321d281bff2ebe145b3ed43c3b32fa94e8c8fb8379f7730355e80bd07'}
+  - {seq: 1, filename: KR6e0053_001.yaml, hash: 'sha256:80e916da02c0823c0f5e187c24eb38f0f8663125b5967c8199d9862708334ac9'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6e0053_001.markers.yaml, hash: 'sha256:b15ba5a0935ac600bb92f1c1b24f7792197eea7a7bfd5933b8576e5d9e4a27f4'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6e0053_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6129
+  label: '大方廣入如來智德不思議經一
+
+    卷'
+  type: juan
+  level: 1
+hash: sha256:1a36241a7cc30180f289ab41cb41017cbfa984cf4f47fbe0bbb043ea4e1b1f18
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
