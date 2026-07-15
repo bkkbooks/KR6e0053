@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6e0053/v1
 canonical_location: https://kanripo.org/bkk/KR6e0053/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大方廣入如來智德不思議經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6e0053_000.yaml, hash: 'sha256:3bc722d321d281bff2ebe145b3ed43c3b32fa94e8c8fb8379f7730355e80bd07'}
-  - {seq: 1, filename: KR6e0053_001.yaml, hash: 'sha256:6d906bf329286e3243ce127bd8db1b8b31ebd48c7af3d92cc515c06d58f9986d'}
+  - {seq: 1, filename: KR6e0053_001.yaml, hash: 'sha256:e78af017c4cfa9cb98b4e899f7118673a018f97b86b28a41387277cdeb76485d'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6e0053_000.markers.yaml, hash: 'sha256:363631e8c3bc676b992a07608c8c5b270c889c8ff64bb1191fbe0619434086bd'}
-  - {seq: 1, role: markers, filename: assets/KR6e0053_001.markers.yaml, hash: 'sha256:6670544f5ac4b8b2954ebbef63a806484afb939620f3fcd2f0c34ec6f2bc07eb'}
+  - {seq: 1, role: markers, filename: assets/KR6e0053_001.markers.yaml, hash: 'sha256:a2aa737b46beab1fb1e7e62600a3840e86fb65eca10e1a5ea261cd8f14636443'}
 table_of_contents:
 - ref:
     seq: 1
@@ -51,4 +51,7 @@ table_of_contents:
     卷'
   type: juan
   level: 1
-hash: sha256:c0413e7daa325e64e99c9e1f543152e82961c1fe4fc640628be0f80d922299b6
+hash: sha256:337be8387c05e9d71efacd3cb5a872322dc00aa6b3697573d467b5f43d64dd3c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
